@@ -65,7 +65,7 @@ class SearchBar extends React.Component {
   }
 }
 
-SearchBar.PropTypes = {
+SearchBar.propTypes = {
   placeholder: PropTypes.string,
   text: PropTypes.string,
   barTintColor: PropTypes.string,
